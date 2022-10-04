@@ -1,0 +1,50 @@
+@import '~antd/dist/antd.css';
+
+.editable-cell {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+    padding: 4px 11px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+}
+
+[data-theme='dark'] .editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #434343;
+}
+
+.table-cell {
+    padding: 10px 11px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 4px solid #d9d9d9;
+}
+
+.header-cell {
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.from-cell {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.from-cell .input-area{
+    width: 15%;
+}
+
+.from-cell .button-area{
+    margin-left: 5px;
+    margin-right: 5px;
+}

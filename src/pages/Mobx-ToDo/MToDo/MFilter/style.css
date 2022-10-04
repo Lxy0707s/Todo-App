@@ -1,0 +1,27 @@
+.filterView {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.filterView .button-style {
+  margin: auto 15px;
+  padding: 3px 10px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.filterView .button-style:hover {
+  border: 2px solid olivedrab;
+}
+
+.filterView .button-style:focus{
+  outline: none;
+  border: 2px solid green;
+}
+
+.filterView .button-style[disabled]{
+  outline: none;
+  border: 2px solid green;
+}
